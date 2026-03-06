@@ -3,10 +3,10 @@
 """ This module contains Linear_Regression
 """
 
-from sklearn.linear_model import LinearRegression
+from sklearn import linear_model
 
 
 def Linear_Regression():
     """ Function that returns a LinearRegression instance"""
 
-    return LinearRegression()
+    return linear_model.LinearRegression()
