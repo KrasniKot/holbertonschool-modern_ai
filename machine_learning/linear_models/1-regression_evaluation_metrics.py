@@ -3,6 +3,8 @@
 """ This module contains the function: evaluation_metrics_for_regression """
 
 from sklearn import metrics
+import numpy as np
+
 
 mse = metrics.mean_squared_error
 rmse = metrics.root_mean_squared_error
