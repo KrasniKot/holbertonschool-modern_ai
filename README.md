@@ -1,2 +1,2 @@
 # holbertonschool-modern_ai
-Holberton School Beta Testing Program
+This repository contains projects for the `Holberton School Beta Testing Program 
