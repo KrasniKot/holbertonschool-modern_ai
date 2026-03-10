@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """ This module contains ridge_regression() """
 
-from sklearn.linear_model import Ridge
+from sklearn import linear_model
+
+
+Ridge = linear_model.Ridge
 
 
 def ridge_regression(random_state):
