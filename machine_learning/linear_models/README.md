@@ -3,6 +3,9 @@
 ## Tasks
 
 ### 0. Linear Regression
-A function that returns a `scklearn` `LinearRegression` function
+Function that returns a `scklearn` `LinearRegression` function
 
-### 1. 
+### 1. Regression Evaluation Metrics
+Function that computes and returns common evaluation metrics
+
+### 2. Ridge Regression
