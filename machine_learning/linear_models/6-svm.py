@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ This module contains get_SVM_model """
 
-from sklearn.svm import SVC
+from sklearn import svm
 
 
 def get_SVM_model(name, random_state):
@@ -13,7 +13,7 @@ def get_SVM_model(name, random_state):
     """
 
     if name in ('linear', 'poly', 'rbf'):
-        return SVC(kernel=name, random_state=random_state)
+        return svm.SVC(kernel=name, random_state=random_state)
 
     error = "Invalid model name. Choose from 'linear', 'poly', or 'rbf'."
     raise ValueError(error)
