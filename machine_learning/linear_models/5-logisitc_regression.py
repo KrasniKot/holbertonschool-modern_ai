@@ -10,4 +10,4 @@ def Logistic_Regression_Model(random_state):
         
         >>> An untrained LogisticRegression instance.
     """
-    return linear_model.LogisticRegression()
+    return linear_model.LogisticRegression(random_state=random_state)
